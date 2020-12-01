@@ -1,0 +1,90 @@
+/*
+Autor(a): Cristiane Rodrigues Maragno
+Versão: 1.0
+*/
+
+
+body{
+	background: black;
+}
+
+nome-logo{
+	height: 30px;
+}
+.navbar{
+	background: yellow;
+}
+.nav-link{
+	color: black;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.nav-link>a:hover{
+	color: #F71F1F;
+}
+.custom-toggler.navbar-toggler {
+    border-color: red;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+/*Rodapé*/
+@font-face {
+  font-family: FonteParagrafo;
+  src: url(Fontes/Montserrat-Regular.ttf);
+}
+
+footer {
+	font-family: FonteParagrafo;
+	font-size: 14px;
+	padding: 50px 0px 20px 0px;
+	position: relative;
+}
+
+.item-rede-social{
+	float: right;
+	margin-left: 20px;
+	margin-top: 20px;
+
+}
+
+.copyright{
+	margin-top: 10px;
+	text-align: center;
+	color: white;
+	padding-top: 10px;
+	margin-bottom: 0px;
+	font-size: 12px;
+}
+#rodape h4 {
+	color: #919496;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+.logo-rodape{
+	height: 200px;
+}
+a{
+	color: white
+}
+a:hover{
+	color: #F71F1F;
+	text-decoration: none;
+}
+
+/*-------------Midia queries--------------------*/
+@media (max-width: 767px){ /*Aparentemente sendo completamente inútil*/
+.nome-logo{
+	width: 70%;
+	float: left;
+	display: inline;
+}
+
+.nav{
+	display: block;
+	float: none;
+
+}
+
+}
